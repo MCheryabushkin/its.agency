@@ -1,0 +1,157 @@
+.banner {
+  height: 410px;
+  background: url("/images/del/main-back2.png") center no-repeat;
+  background-size: cover;
+  position: relative;
+  @include respond-to(lg) {
+    height: 580px;
+  }
+  @include respond-to(sm) {
+    background: url("/images/main_back.png") center no-repeat;
+    background-size: cover;
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+
+    color: $white;
+
+    h1 {
+      font-family: $subFont;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 70px;
+      color: $white;
+      font-size: 48px;
+      @include respond-to(lg) {
+        font-size: 48px;
+      }
+      @include respond-to(md) {
+        font-size: 36px;
+      }
+    }
+  }
+
+  .contacts-info {
+    .info-item {
+      text-align: left;
+      &__name {
+        font-size: 14px;
+        opacity: 0.5;
+      }
+      &__dscr {
+        font-size: 16px;
+        @include respond-to(lg) {
+          font-size: 18px;
+        }
+      }
+
+      &--title {
+        width: 100%;
+        text-align: center;
+        @include respond-to(md) {
+          width: auto;
+        }
+
+        h1 {
+          display: inline-block;
+          @include respond-to(md) {
+            display: block;
+          }
+
+          &:after {
+            content: '';
+            display: inline-block;
+            margin-left: 12px;
+            width: 34px;
+            height: 34px;
+            position: relative;
+            top: 4px;
+            background: url("/images/icons/banner-arrow.svg") center no-repeat;
+            background-size: contain;
+            @include respond-to(md) {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__contacts {
+    padding: 32px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+    background: $red;
+    @include respond-to(lg) {
+      width: 60%;
+      padding: 60px 0 76px;
+    }
+    @include respond-to(md) {
+      padding: 40px 0 36px;
+      width: 72%;
+      flex-wrap: nowrap;
+    }
+  }
+
+  &__about {
+    background: $dark;
+    align-self: stretch;
+
+    @include respond-to(xl) {
+      padding: 0 115px;
+    }
+    @include respond-to(lg) {
+      padding: 0 55px;
+    }
+    @include respond-to(md) {
+      padding: 0 30px;
+    }
+
+    .about-text {
+      display: none;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+
+      @include respond-to(md) {
+        display: block;
+      }
+
+      p {
+        line-height: normal;
+        font-size: 12px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  &__categories-btn {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    right: 21px;
+    bottom: 21px;
+    border-radius: 50%;
+    background: $red;
+    box-shadow: 0 4px 8px rgba(67, 0, 0, 0.24);
+    @include respond-to(md) {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,222 @@
+.modal-food {
+  width: 100vw;
+  height: 0;
+  display: flex;
+  align-items: flex-end;
+  position: fixed;
+  left: 0;
+  z-index: 999;
+  @include respond-to(md) {
+    bottom: -9999px;
+  }
+
+  .modal-body {
+    width: 100%;
+    position: relative;
+    background: $white;
+  }
+  .modal-close {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 999;
+  }
+
+  .modal-content {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+
+    @include respond-to(md) {
+      flex-direction: row;
+    }
+  }
+
+  &__image {
+    //width: 75%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: $white;
+
+    @include  respond-to(xl) {
+      flex: 3;
+    }
+    @include respond-to(lg) {
+      flex: 2;
+    }
+    @include respond-to(md) {
+      flex: 1;
+    }
+
+    img {
+      max-width: 60%;
+      transform: translateY(9999px);
+      transition: all .4s;
+    }
+  }
+
+  &__info {
+    //width: 25%;
+    background: rgba(#E8EAED, .3);
+    position: relative;
+    flex: 1;
+  }
+
+  &__text-info {
+    padding: 40px 15px;
+    @include respond-to(md) {
+      padding: 50px 20px 120px 50px;
+    }
+  }
+
+  &__text {
+    margin-bottom: 20px;
+  }
+  &__header {
+    margin-bottom: 25px;
+    line-height: 27px;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+
+    span {
+      display: inline-block;
+      color: $gray;
+    }
+  }
+
+  &__name {
+    margin-bottom: 16px;
+    line-height: 21px;
+    font-size: 15px;
+    color: $dark;
+    opacity: .4;
+    font-weight: 400;
+  }
+  &__dscr {
+    line-height: 21px;
+    font-size: 15px;
+  }
+  &__add {
+    background: $red;
+  }
+
+  &__calories {
+
+  }
+
+  &__price {
+    padding-right: 30px;
+    border-right: 1px solid $white;
+    display: none;
+
+    @include respond-to(md) {
+      display: inline-block;
+    }
+  }
+}
+
+.add-food {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  bottom: 0;
+  left: 0;
+  @include respond-to(md) {
+    position: absolute;
+  }
+
+  &__amount {
+    padding: 14px 28px;
+    background: $red-dark;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include respond-to(md) {
+      padding: 14px 48px;
+      display: block;
+    }
+
+    &--plus {
+      min-width: 10px;
+      text-align: center;
+    }
+    &--minus {
+      min-width: 10px;
+      text-align: center;
+    }
+  }
+  &__pricing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: $red;
+
+    p {
+      font-size: 18px;
+      font-weight: bold;
+      color: $white;
+
+      &:last-of-type {
+        @include respond-to(md) {
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+  &__counter {
+    margin: 0 30px;
+    @include respond-to(md) {
+      margin: 16px 0;
+    }
+
+    input {
+      width: 30px;
+      background: transparent;
+      border: none;
+      text-align: center;
+
+      color: $white;
+      line-height: normal;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    p {
+    }
+  }
+
+}
+
+
+.calories {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  &__item {
+    margin-right: 20px;
+    transform: translateY(9999px);
+    @include respond-to(md) {
+      margin-right: 40px;
+    }
+  }
+  &__num {
+    line-height: normal;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  &__name {
+    line-height: 17px;
+    font-size: 12px;
+    color: $txt;
+    opacity: 0.4;
+  }
+}

@@ -1,0 +1,94 @@
+.food-list {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  &__item {
+    margin: 0 14px 50px;
+    width: 270px;
+
+    @include respond-to(md) {
+      margin: 0 24px 50px;
+    }
+  }
+}
+
+.food-counter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 34px;
+  &__item {
+    line-height: 32px;
+    font-weight: 600;
+    color: $red;
+    display: none;
+    max-width: 30px;
+    text-align: center;
+    border: none;
+  }
+  &__button {
+    display: inline-block;
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    background-size: cover;
+    cursor: pointer;
+
+    &--plus {
+      background: url("/images/icons/plus.svg") center no-repeat;
+    }
+    &--minus {
+      display: none;
+      background: url("/images/icons/minus.svg") center no-repeat;
+    }
+  }
+}
+
+.food-item {
+
+  &__counter {
+    text-align: right;
+  }
+
+  &__picture {
+    margin-bottom: 30px;
+  }
+
+  &__info {
+    margin-bottom: 16px;
+    padding-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid $dark;
+  }
+
+  &__name {
+    font-size: 18px;
+    font-weight: 600;
+
+    span {
+      display: inline-block;
+      margin-left: 8px;
+      color: $gray;
+    }
+  }
+  &__price {
+    font-size: 16px;
+    font-weight: 600;
+
+  }
+
+  &__dscr {
+    font-size: 15px;
+    opacity: 0.8;
+
+    span {
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}

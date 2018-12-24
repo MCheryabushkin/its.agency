@@ -1,0 +1,36 @@
+.sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: $white;
+  z-index: 105;
+  transform: translateX(999px);
+  transition: all .4s;
+  @include respond-to(sm) {
+    width: 300px;
+  }
+
+  &__wrapper {
+    padding: 55px 30px;
+  }
+  h2 {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  p {
+    line-height: 23px;
+    font-size: 18px;
+    text-align: center;
+
+    color: $dark-gray;
+  }
+  &__img {
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}

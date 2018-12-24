@@ -1,0 +1,31 @@
+.main-content {
+  position: relative;
+  overflow-x: hidden;
+  &__back {
+    content: '';
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    filter: blur(5px);
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+}
+
+.main-display {
+  &.modal-opened {
+    &:before {
+      content: '';
+      display: block;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0,0,0,.7);
+      z-index: 100;
+      position: fixed;
+      top: 0;
+    }
+  }
+}

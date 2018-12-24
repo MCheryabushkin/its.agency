@@ -1,0 +1,46 @@
+.food-menu {
+  padding: 50px 0;
+  h2 {
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    @include respond-to(sm) {
+      margin: 0;
+    }
+
+    span {
+      position: absolute;
+      font-size: 18px;
+      color: $txt;
+      letter-spacing: 0.01em;
+      opacity: 0.2;
+      top: -10px;
+      right: -30px;
+    }
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    @include respond-to(sm) {
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__sort {
+    position: relative;
+    &:after {
+      content: '';
+      display: inline-block;
+      margin-left: 5px;
+      width: 9px;
+      height: 5px;
+      background: url("/images/icons/arrow-down.svg") center no-repeat;
+      background-size: cover;
+      position: relative;
+      top: -2px;
+    }
+  }
+}

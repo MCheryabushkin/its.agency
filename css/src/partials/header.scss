@@ -1,0 +1,107 @@
+.header {
+  padding: 16px;
+  position: relative;
+  border-bottom: 1px solid $gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @include respond-to(lg) {
+    padding: 0;
+    justify-content: normal;
+  }
+
+  nav {
+    display: none;
+    @include respond-to(lg) {
+      display: block;
+      flex: 2;
+    }
+  }
+
+  &__logo {
+    display: block;
+    @include respond-to(lg) {
+      display: none;
+    }
+  }
+
+  &__menu-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: $white;
+    border-radius: 50%;
+    z-index: 100;
+    cursor: pointer;
+    @include respond-to(lg) {
+      display: none;
+    }
+
+    span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: $txt;
+      &:not(:last-of-type) {
+        margin-bottom: 4px;
+      }
+    }
+
+
+    &.open {
+      transition: all .5s;
+      span {
+        transition: all .5s;
+        &:nth-child(3) {
+          display: none;
+        }
+        &:nth-child(1) {
+          margin-bottom: -1px;
+          transform: rotate(45deg);
+        }
+        &:nth-child(2) {
+          margin-bottom: -1px;
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+
+  &__user {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    right: 0;
+    top: 0;
+    color: $txt;
+    cursor: pointer;
+    &:before {
+      content: '';
+      display: inline-block;
+      margin-right: 8px;
+      width: 24px;
+      height: 25px;
+      position: relative;
+      top: -2px;
+      background: url("/images/icons/pers.svg") center no-repeat;
+      background-size: contain;
+      @include respond-to(md) {
+        width: 14px;
+        height: 15px;
+      }
+    }
+    @include respond-to(md) {
+      padding: 0 20px;
+    }
+
+    span {
+      display: none;
+      @include respond-to(md) {
+        display: inline-block;
+      }
+    }
+  }
+}

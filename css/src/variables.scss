@@ -1,0 +1,36 @@
+// переменные и миксины
+// переменные берутся из стайлгайда
+
+$black: #000;
+$white: #fff;
+$txt: #333333;
+$red: #D62323;
+$red-dark:  #B81111;
+$dark: #313131;
+$gray: #E8EAED;
+$dark-gray: #a7a7a7;
+
+
+
+$text-color: rgb(53,53,53);
+
+
+$linkColor: $txt;
+$linkColor-visited: $red-dark;
+$linkColor-hover: $red-dark;
+
+$defaultShadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2);
+
+$mainFont: 'TT Norms', sans-serif;
+$subFont: 'Spectral', sans-serif;
+
+$media-sm: 576px;
+$media-md: 768px;
+$media-lg: 992px;
+$media-xl: 1200px;
+
+$fontSize: 16px;
+
+
+
+
