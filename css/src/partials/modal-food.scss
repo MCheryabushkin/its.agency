@@ -6,6 +6,7 @@
   position: fixed;
   left: 0;
   z-index: 999;
+  overflow: scroll;
   @include respond-to(md) {
     bottom: -9999px;
   }
