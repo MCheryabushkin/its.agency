@@ -1,13 +1,13 @@
 .banner {
   height: 410px;
-  background: url("/docs/imagesmages/del/main-back2.png") center no-repeat;
+  background: url("/its.agency/images/del/main-back2.png") center no-repeat;
   background-size: cover;
   position: relative;
   @include respond-to(lg) {
     height: 580px;
   }
   @include respond-to(sm) {
-    background: url("/docs/imagesmages/main_back.png") center no-repeat;
+    background: url("/its.agency/images/main_back.png") center no-repeat;
     background-size: cover;
   }
 
@@ -75,7 +75,7 @@
             height: 34px;
             position: relative;
             top: 4px;
-            background: url("/docs/imagesmages/icons/banner-arrow.svg") center no-repeat;
+            background: url("/its.agency/images/icons/banner-arrow.svg") center no-repeat;
             background-size: contain;
             @include respond-to(md) {
               display: none;

@@ -1,0 +1,240 @@
+@font-face {
+  font-family: 'TT Norms ExtraBold';
+  src: url("/css/fonts/TTNorms/TTNorms-ExtraBoldItalic.eot");
+  src: local('TT Norms ExtraBold Italic'),local('TTNorms-ExtraBoldItalic'),url("/css/fonts/TTNorms/TTNorms-ExtraBoldItalic.eot?#iefix") format('embedded-opentype'),url("/css/fonts/TTNorms/TTNorms-ExtraBoldItalic.woff") format('woff'),url("/css/fonts/TTNorms/TTNorms-ExtraBoldItalic.ttf") format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url("/css/fonts/TTNorms/TTNorms-Bold.eot");
+  src: local('TT Norms Bold'),local('TTNorms-Bold'),url("/css/fonts/TTNorms/TTNorms-Bold.eot?#iefix") format('embedded-opentype'),url("/css/fonts/TTNorms/TTNorms-Bold.woff") format('woff'),url("/css/fonts/TTNorms/TTNorms-Bold.ttf") format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url("/css/fonts/TTNorms/TTNorms-Thin.eot");
+  src: local('TT Norms Thin'),local('TTNorms-Thin'),url("/css/fonts/TTNorms/TTNorms-Thin.eot?#iefix") format('embedded-opentype'),url("/css/fonts/TTNorms/TTNorms-Thin.woff") format('woff'),url("/css/fonts/TTNorms/TTNorms-Thin.ttf") format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url("/css/fonts/TTNorms/TTNorms-Regular.eot");
+  src: local('TT Norms Regular'),local('TTNorms-Regular'),url("/css/fonts/TTNorms/TTNorms-Regular.eot?#iefix") format('embedded-opentype'),url("/css/fonts/TTNorms/TTNorms-Regular.woff") format('woff'),url("/css/fonts/TTNorms/TTNorms-Regular.ttf") format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms Thin';
+  src: url("/css/fonts/TTNorms/TTNorms-ThinItalic.eot");
+  src: local('TT Norms Thin Italic'),local('TTNorms-ThinItalic'),url("/css/fonts/TTNorms/TTNorms-ThinItalic.eot?#iefix") format('embedded-opentype'),url("/css/fonts/TTNorms/TTNorms-ThinItalic.woff") format('woff'),url("/css/fonts/TTNorms/TTNorms-ThinItalic.ttf") format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url("/css/fonts/TTNorms/TTNorms-Italic.eot");
+  src: local('TT Norms Italic'),local('TTNorms-Italic'),url("/css/fonts/TTNorms/TTNorms-Italic.eot?#iefix") format('embedded-opentype'),url("/css/fonts/TTNorms/TTNorms-Italic.woff") format('woff'),url("/css/fonts/TTNorms/TTNorms-Italic.ttf") format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url("/css/fonts/TTNorms/TTNorms-Heavy.eot");
+  src: local('TT Norms Heavy'),local('TTNorms-Heavy'),url("/css/fonts/TTNorms/TTNorms-Heavy.eot?#iefix") format('embedded-opentype'),url("/css/fonts/TTNorms/TTNorms-Heavy.woff") format('woff'),url("/css/fonts/TTNorms/TTNorms-Heavy.ttf") format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url("/css/fonts/TTNorms/TTNorms-Light.eot");
+  src: local('TT Norms Light'),local('TTNorms-Light'),url("/css/fonts/TTNorms/TTNorms-Light.eot?#iefix") format('embedded-opentype'),url("/css/fonts/TTNorms/TTNorms-Light.woff") format('woff'),url("/css/fonts/TTNorms/TTNorms-Light.ttf") format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms Black';
+  src: url("/css/fonts/TTNorms/TTNorms-BlackItalic.eot");
+  src: local('TT Norms #000 Italic'),local('TTNorms-BlackItalic'),url("/css/fonts/TTNorms/TTNorms-BlackItalic.eot?#iefix") format('embedded-opentype'),url("/css/fonts/TTNorms/TTNorms-BlackItalic.woff") format('woff'),url("/css/fonts/TTNorms/TTNorms-BlackItalic.ttf") format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url("/css/fonts/TTNorms/TTNorms-ExtraLight.eot");
+  src: local('TT Norms ExtraLight'),local('TTNorms-ExtraLight'),url("/css/fonts/TTNorms/TTNorms-ExtraLight.eot?#iefix") format('embedded-opentype'),url("/css/fonts/TTNorms/TTNorms-ExtraLight.woff") format('woff'),url("/css/fonts/TTNorms/TTNorms-ExtraLight.ttf") format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms Light';
+  src: url("/css/fonts/TTNorms/TTNorms-LightItalic.eot");
+  src: local('TT Norms Light Italic'),local('TTNorms-LightItalic'),url("/css/fonts/TTNorms/TTNorms-LightItalic.eot?#iefix") format('embedded-opentype'),url("/css/fonts/TTNorms/TTNorms-LightItalic.woff") format('woff'),url("/css/fonts/TTNorms/TTNorms-LightItalic.ttf") format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms ExtraLight';
+  src: url("/css/fonts/TTNorms/TTNorms-ExtraLightItalic.eot");
+  src: local('TT Norms ExtraLight Italic'),local('TTNorms-ExtraLightItalic'),url("/css/fonts/TTNorms/TTNorms-ExtraLightItalic.eot?#iefix") format('embedded-opentype'),url("/css/fonts/TTNorms/TTNorms-ExtraLightItalic.woff") format('woff'),url("/css/fonts/TTNorms/TTNorms-ExtraLightItalic.ttf") format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms Bold';
+  src: url("/css/fonts/TTNorms/TTNorms-BoldItalic.eot");
+  src: local('TT Norms Bold Italic'),local('TTNorms-BoldItalic'),url("/css/fonts/TTNorms/TTNorms-BoldItalic.eot?#iefix") format('embedded-opentype'),url("/css/fonts/TTNorms/TTNorms-BoldItalic.woff") format('woff'),url("/css/fonts/TTNorms/TTNorms-BoldItalic.ttf") format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url("/css/fonts/TTNorms/TTNorms-Medium.eot");
+  src: local('TT Norms Medium'),local('TTNorms-Medium'),url("/css/fonts/TTNorms/TTNorms-Medium.eot?#iefix") format('embedded-opentype'),url("/css/fonts/TTNorms/TTNorms-Medium.woff") format('woff'),url("/css/fonts/TTNorms/TTNorms-Medium.ttf") format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url("/css/fonts/TTNorms/TTNorms-Black.eot");
+  src: local('TT Norms Black'),local('TTNorms-Black'),url("/css/fonts/TTNorms/TTNorms-Black.eot?#iefix") format('embedded-opentype'),url("/css/fonts/TTNorms/TTNorms-Black.woff") format('woff'),url("/css/fonts/TTNorms/TTNorms-Black.ttf") format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms Medium';
+  src: url("/css/fonts/TTNorms/TTNorms-MediumItalic.eot");
+  src: local('TT Norms Medium Italic'),local('TTNorms-MediumItalic'),url("/css/fonts/TTNorms/TTNorms-MediumItalic.eot?#iefix") format('embedded-opentype'),url("/css/fonts/TTNorms/TTNorms-MediumItalic.woff") format('woff'),url("/css/fonts/TTNorms/TTNorms-MediumItalic.ttf") format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms Heavy';
+  src: url("/css/fonts/TTNorms/TTNorms-HeavyItalic.eot");
+  src: local('TT Norms Heavy Italic'),local('TTNorms-HeavyItalic'),url("/css/fonts/TTNorms/TTNorms-HeavyItalic.eot?#iefix") format('embedded-opentype'),url("/css/fonts/TTNorms/TTNorms-HeavyItalic.woff") format('woff'),url("/css/fonts/TTNorms/TTNorms-HeavyItalic.ttf") format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url("/css/fonts/TTNorms/TTNorms-ExtraBold.eot");
+  src: local('TT Norms ExtraBold'),local('TTNorms-ExtraBold'),url("/css/fonts/TTNorms/TTNorms-ExtraBold.eot?#iefix") format('embedded-opentype'),url("/css/fonts/TTNorms/TTNorms-ExtraBold.woff") format('woff'),url("/css/fonts/TTNorms/TTNorms-ExtraBold.ttf") format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: Spectral;
+  src: local('Spectral Light'),local('Spectral-Light'),url("/css/fonts/spectral/Spectrallight.woff2") format('woff2'),url("/css/fonts/spectral/Spectrallight.woff") format('woff'),url("/css/fonts/spectral/Spectrallight.ttf") format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Spectral;
+  src: local('Spectral Regular'),local('Spectral-Regular'),url("/css/fonts/spectral/Spectralregular.woff2") format('woff2'),url("/css/fonts/spectral/Spectralregular.woff") format('woff'),url("/css/fonts/spectral/Spectralregular.ttf") format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Spectral;
+  src: local('Spectral SemiBold'),local('Spectral-SemiBold'),url("/css/fonts/spectral/Spectralsemibold.woff2") format('woff2'),url("/css/fonts/spectral/Spectralsemibold.woff") format('woff'),url("/css/fonts/spectral/Spectralsemibold.ttf") format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Spectral;
+  src: local('Spectral Italic'),local('Spectral-Italic'),url("/css/fonts/spectral/Spectralitalic.woff2") format('woff2'),url("/css/fonts/spectral/Spectralitalic.woff") format('woff'),url("/css/fonts/spectral/Spectralitalic.ttf") format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Spectral;
+  src: local('Spectral Medium Italic'),local('Spectral-MediumItalic'),url("/css/fonts/spectral/Spectralmediumitalic.woff2") format('woff2'),url("/css/fonts/spectral/Spectralmediumitalic.woff") format('woff'),url("/css/fonts/spectral/Spectralmediumitalic.ttf") format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Spectral;
+  src: local('Spectral ExtraLight Italic'),local('Spectral-ExtraLightItalic'),url("/css/fonts/spectral/Spectralextralightitalic.woff2") format('woff2'),url("/css/fonts/spectral/Spectralextralightitalic.woff") format('woff'),url("/css/fonts/spectral/Spectralextralightitalic.ttf") format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Spectral;
+  src: local('&#39;Spectral ExtraBold Italic'),local('Spectral-ExtraBoldItalic'),url("/css/fonts/spectral/&#39;spectralextrabolditalic.woff2") format('woff2'),url("/css/fonts/spectral/&#39;spectralextrabolditalic.woff") format('woff'),url("/css/fonts/spectral/&#39;spectralextrabolditalic.ttf") format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Spectral;
+  src: local('Spectral ExtraBold'),local('Spectral-ExtraBold'),url("/css/fonts/spectral/Spectralextrabold.woff2") format('woff2'),url("/css/fonts/spectral/Spectralextrabold.woff") format('woff'),url("/css/fonts/spectral/Spectralextrabold.ttf") format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Spectral;
+  src: local('Spectral Light Italic'),local('Spectral-LightItalic'),url("/css/fonts/spectral/Spectrallightitalic.woff2") format('woff2'),url("/css/fonts/spectral/Spectrallightitalic.woff") format('woff'),url("/css/fonts/spectral/Spectrallightitalic.ttf") format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Spectral;
+  src: local('Spectral Medium'),local('Spectral-Medium'),url("/css/fonts/spectral/Spectralmedium.woff2") format('woff2'),url("/css/fonts/spectral/Spectralmedium.woff") format('woff'),url("/css/fonts/spectral/Spectralmedium.ttf") format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Spectral;
+  src: local('Spectral ExtraLight'),local('Spectral-ExtraLight'),url("/css/fonts/spectral/Spectralextralight.woff2") format('woff2'),url("/css/fonts/spectral/Spectralextralight.woff") format('woff'),url("/css/fonts/spectral/Spectralextralight.ttf") format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Spectral;
+  src: local('Spectral Bold Italic'),local('Spectral-BoldItalic'),url("/css/fonts/spectral/Spectralbolditalic.woff2") format('woff2'),url("/css/fonts/spectral/Spectralbolditalic.woff") format('woff'),url("/css/fonts/spectral/Spectralbolditalic.ttf") format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Spectral;
+  src: local('Spectral SemiBold Italic'),local('Spectral-SemiBoldItalic'),url("/css/fonts/spectral/Spectralsemibolditalic.woff2") format('woff2'),url("/css/fonts/spectral/Spectralsemibolditalic.woff") format('woff'),url("/css/fonts/spectral/Spectralsemibolditalic.ttf") format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Spectral;
+  src: local('Spectral Bold'),local('Spectral-Bold'),url("/css/fonts/spectral/Spectralbold.woff2") format('woff2'),url("/css/fonts/spectral/Spectralbold.woff") format('woff'),url("/css/fonts/spectral/Spectralbold.ttf") format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
